@@ -1,16 +1,129 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Fwra5Fna)
 # Project Instructions
+# Project Plan — Reusable Event Registration Website
 
-Follow the instructions here: https://vuxcode.netlify.app/new/we1/lessons/major-project-brief/
+## 1. Project Idea
+The goal of this project is to create a reusable website where different types of activities can be presented and people can sign up to participate.
 
-The aim of the project is to show how you have developed your website, the steps you have taken and the problems you have solved!
+The website will not be built for a specific event.  
+Instead, it will act as a template where only the event information needs to be changed.
 
-REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJECT!
+Possible uses:
+- Competitions
+- Challenges
+- Group activities
+- Meetings
+- Contests
 
-# Project Notes
+---
 
-> You can use this section of the file to keep notes about your project as you work on it
+## 2. Purpose
+The website should allow an organizer to:
 
-# Project Summary
+- Present an event
+- Provide important information
+- Explain rules or requirements
+- Allow participants to register
+- Show a participant list
 
-> Before the final submission date you should include a "PROJECT SUMMARY" in this section here.
+The main focus is a clear and logical HTML structure that is easy to understand and reuse.
+
+---
+
+## 3. Pages Overview
+
+### Home Page — `index.html`
+Gives a quick overview of the event.
+
+Content:
+- Event title
+- Short introduction
+- Date and location
+- Organizer information
+- Navigation links to other pages
+
+---
+
+### Event Details — `details.html`
+Provides deeper information about the activity.
+
+Content:
+- Full description
+- Rules
+- Requirements
+- Schedule
+
+---
+
+### Signup Page — `signup.html`
+Allows a user to register for the event.
+
+Form fields:
+- Name
+- Contact information
+- Optional comment
+- Submit button
+
+---
+
+### Participants Page — `participants.html`
+Displays participants.
+
+Content:
+- List of participants
+- Optional waiting list
+
+---
+
+## 4. Reusability Plan
+The website layout should never need to be changed.
+
+Only the text content inside sections will be edited:
+
+- Event name
+- Description
+- Date
+- Location
+- Rules
+
+This makes the webpage reusable for many different activities without rewriting the code.
+
+---
+
+## 5. Technical Plan
+The project will focus on simple and clear HTML.
+
+Planned structure:
+- Headings for hierarchy
+- Paragraphs for text
+- Div elements for grouping content
+- Links for navigation between pages
+- A basic form for registration
+
+No advanced functionality is required.  
+If dynamic features are added in the future, they will be part of a separate project.
+
+---
+
+## 6. File Structure
+
+project/
+│── index.html
+│── details.html
+│── signup.html
+│── participants.html
+
+
+---
+
+## 7. Design Principles
+- Simple structure
+- Clear hierarchy of information
+- Easy to read code
+- Easy to modify content
+- Consistent layout between pages
+
+---
+
+## 8. Short Project Description
+This project is a reusable event registration website template where activities can be presented and users can sign up by changing only the event content while keeping the same page structure.
