@@ -4,6 +4,7 @@
     <head>
         <title>Signup</title>
          <meta name="color-scheme" content="dark"> <!-- Is this correct place for the darkmode? -->
+         <link rel="stylesheet" href="style.css"> <!-- Tells the browser that there is a CSS sheet (not yet though)-->
     </head>
 <body>
     
@@ -15,28 +16,28 @@
     <section>
         <h2>Sign up</h2>
 
-        <form> <!-- Container for the user to enter data -->
+        <form Class="signup-form"> <!-- Container for the user to enter data -->
 
-            <p>
-                <label>Name:</label><br> <!-- The label is to tell the browser they are connected <br> is line break-->
+            <div class=""form-field> 
+                <label for="name">Name:</label><br> <!-- The label is to tell the browser they are connected <br> is line break-->
                 <input type="text"> <!-- Browser will now what to expect from the input-->
-            </p>
+            </div>
 
 
-            <p>
+            <div class=""form-field>
                 <label>Email:</label><br>
                 <input type="email">
-            </p>
+            </div>
 
 
-            <p>
+            <div class=""form-field>
                 <label>Message:</label><br>
                 <textarea></textarea> <!-- Multi-line answer box-->
-            </p>
+            </div>
             
-            <p>
+            <div class=""form-action>
                <button>Submit</button> <!-- Just a structure for now, backend will be implemented-->
-            </p>
+            </div>
         </form>
     </section>
 
