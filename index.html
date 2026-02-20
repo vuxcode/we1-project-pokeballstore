@@ -4,7 +4,7 @@
 <html>
     <head> <!-- metadata about the page "document" (not visible on the page)  -->
      <title>Next event</title> <!-- The title you see in the tab-->
-     <img src="banner.webp" alt="Event banner green fractals"
+     <img src="banner.webp" alt="Event banner green fractals" width="100%"> <!--width makes the image "follow the page" but later I will controll this with css-->
       <meta name="color-scheme" content="dark"> <!-- Is this correct place for the darkmode? -->
      </head>
 
@@ -29,7 +29,7 @@
       <p>The event will be at the lake</p>
 
       <p>  <!-- It's no diffrence for the browser if I have "<p>" on diffrent lines, but it make it easier for the human to read. -->
-         <a href="https://maps.google.com" target="_blank">Open map</a>>Google Maps link</a>   <!-- Maybe add a map to the page? Target attribute makes the browser open a new tab with the link-->
+         <a href="https://maps.google.com" target="_blank">Open map</a>Google Maps link</a>   <!-- Maybe add a map to the page? Target attribute makes the browser open a new tab with the link-->
       </p>
             
    </section>
@@ -37,9 +37,19 @@
    <section id="rules" class="event-section">
       <h2>Rules and Gear</h2>
       <p> For this event... </p>
-      <li>Rule 1</li> <!-- I don't see why not use <p>... -->
+      <li>Rule 1</li> <!-- I don't see why not use <p>... Becasue the text would appear on the same line. -->
       <li>Rule 2</li>
       <li>Rule 3</li>
+  
+      <!--
+Example placeholder rules used for testing the reusable page layout.
+These items can be replaced dynamically depending on the event.
+-->
+
+ <!-- <li>Rule 4</li>
+      <li>Rule 5</li> 
+      <li>Rule 6</li>
+      <li>Rule 7</li> --> 
    </section>
 
 </main>
