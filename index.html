@@ -4,6 +4,7 @@
 <html>
     <head> <!-- metadata about the page "document" (not visible on the page)  -->
      <title>Next event</title> <!-- The title you see in the tab-->
+     <img src="banner.webp" alt="Event banner green fractals"
       <meta name="color-scheme" content="dark"> <!-- Is this correct place for the darkmode? -->
      </head>
 
@@ -17,24 +18,23 @@
 </header>
   
 <main>
-   <section id="about"> <!-- Maybe not necessary with sections atm. Need to practice though  -->
-    <h2>About</h2> <!-- second level heading (below h1 in hierarchy) -->
-
+   <section id="about" class="event-section"> <!-- Maybe not necessary with sections atm. Need to practice though  -->
+    <h2>About</h2> <!-- second level heading (below h1 in hierarchy) -->    
      <p>All info you need</p> <!-- I Will create a demo and a template -->
    </section>
   
-   <section id="location"> <!-- The id is for navigation on in the document (page)  -->
+   <section id="location" class="event-section"> <!-- The id is for navigation on in the document (page)  -->
       <h2>Location</h2>
       
       <p>The event will be at the lake</p>
 
       <p>  <!-- It's no diffrence for the browser if I have "<p>" on diffrent lines, but it make it easier for the human to read. -->
-         <a href="https://maps.google.com">Google Maps link</a>   <!-- Maybe ad a map to the page?-->
+         <a href="https://maps.google.com" target="_blank">Open map</a>>Google Maps link</a>   <!-- Maybe add a map to the page? Target attribute makes the browser open a new tab with the link-->
       </p>
             
    </section>
 
-   <section id="rules">
+   <section id="rules" class="event-section">
       <h2>Rules and Gear</h2>
       <p> For this event... </p>
       <li>Rule 1</li> <!-- I don't see why not use <p>... -->
@@ -46,8 +46,8 @@
    
 
 
-<nav class="site-nav"> <!-- Do not need id for navigation -->
- <ul> <!-- A list without any order-->  
+<nav class="event-section"> <!-- Do not need id for navigation -->
+ <ul> <!-- A list without any order. <ol> when the list should appear in order-->  
   <li><a href="#about">About</a></li>
   <li><a href="#rules">Rules</a></li>
   <li><a href="#"></a></li>
