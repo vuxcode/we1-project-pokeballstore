@@ -133,3 +133,4 @@ This project is a reusable event registration website template where activities 
 ## 9. Inspiration and source material 
  - https://www.udemy.com/course/learn-html-and-css-in-7-days-web-developer-bootcamp/?couponCode=CODING2GO Flexbix and Css
  - https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
+ - It’s crucial for creating visually balanced buttons. So now the question is, How much padding is right? As a general rule, use 1x padding on the top and bottom, and 2x padding on left and right — For example, 16px vertically and 32px horizontally. https://medium.com/%40santoshsonnad01/designing-buttons-c9b910e09704

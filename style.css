@@ -19,6 +19,10 @@ nav ul { /* ul makes it target the list inside nav*/
 nav a { /*  to control and remove default web browser link properties */
   text-decoration: none; /* Removes underline */
   color: inherit;        /* Uses same color as parent instead of blue */
+    padding: 16px 32px;    /* Creates space inside each link (like a button) will try to find a guide for a size */
+  /* border-radius:  px ; */    /* Slightly rounded corners feels modern and boring, might go for a classic vintage html look */
+  background: #333;      /* Dark background */
+  color: gold;          /* Gold, will go for black and gold theme for now text */
 }
 footer{}
 
