@@ -5,7 +5,14 @@ header {}
 main {}
 
 section {}
-nav{}
+nav{
+     display: flex; /* Will try with flexbox from lesson 10 */
+  gap: 20px; /* this will decide the space between the buttons in the navigation */
+  list-style: none; /* Can remember what whis does... */
+  padding: 0; /*first "box" after the content */
+
+  justify-content: center; /* center the items on a horizontall line. Don't know if this will be good on a phone... */
+}
 
 footer{}
 

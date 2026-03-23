@@ -127,3 +127,9 @@ project/
 
 ## 8. Short Project Description
 This project is a reusable event registration website template where activities can be presented and users can sign up by changing only the event content while keeping the same page structure.
+
+---
+
+## 9. Inspiration and source material 
+ - https://www.udemy.com/course/learn-html-and-css-in-7-days-web-developer-bootcamp/?couponCode=CODING2GO Flexbix and Css
+ - https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
