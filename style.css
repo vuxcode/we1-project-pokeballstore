@@ -2,14 +2,12 @@
 
 header {}
 
-body {
-  background: red;
-}
+body {}
 
 main {}
 
 section {}
-nav{
+nav ul {
      display: flex; /* Will try with flexbox from lesson 10 */
   gap: 20px; /* this will decide the space between the buttons in the navigation */
   list-style: none; /* Can remember what whis does... */
