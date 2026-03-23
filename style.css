@@ -1,5 +1,14 @@
 /* CSS placeholders Will focus on thie later */
 
+header {}
+
+main {}
+
+section {}
+nav{}
+
+footer{}
+
 .signup-form {
 }
 
@@ -7,4 +16,9 @@
 }
 
 .form-actions {
+}
+
+/* COMPONENTS */
+.event-section {
+  padding: 20px;
 }

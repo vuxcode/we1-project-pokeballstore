@@ -3,6 +3,7 @@
 
 <html lang="en"> <!-- I'll maybe just use an AI to create the same page in Swedish later to be able to switch back and forth-->
    <head> <!-- metadata about the page "document" (not visible on the page)  -->
+    <link rel="stylesheet" href="style.css"> <!-- link the index to to the .css-->
      <meta charset="UTF-8"> <!-- I don't want Örjan and Åsa to get problems when signing up-->
      <title>Next event</title> <!-- The title you see in the tab-->
      <meta name="color-scheme" content="dark"> <!-- Is this correct place for the darkmode? -->
@@ -31,7 +32,7 @@
       <p>The event will be at the lake</p>
 
       <p>  <!-- It's no diffrence for the browser if I have "<p>" on diffrent lines, but it make it easier for the human to read. -->
-      <a href="https://maps.google.com" target="_blank">Open map</a> Google Maps link</a>   <!-- Maybe add a map to the page? Target attribute makes the browser open a new tab with the link-->
+      <a href="https://maps.google.com" target="_blank">Open map</a>   <!-- Maybe add a map to the page? Target attribute makes the browser open a new tab with the link-->
       </p>
             
    </section>
@@ -39,10 +40,13 @@
    <section id="rules" class="event-section">
       <h2>Rules and Gear</h2>
       <p> For this event... </p>
+<div class="rules-box">
+  <ul>
       <li>Rule 1</li> <!-- I don't see why not use <p>... Becasue the text would appear on the same line. -->
       <li>Rule 2</li>
       <li>Rule 3</li>
-  
+  </ul>
+</div>
       <!--
 Example placeholder rules used for testing the reusable page layout.
 These items can be replaced dynamically depending on the event.
@@ -73,13 +77,13 @@ These items can be replaced dynamically depending on the event.
 
 
 <footer>
-  <adress>
+  <adres>
    Contact: 
     <a href="mailto:projectinprogress@modul.slmail.me">
       projectinprogress@modul.slmail.me 
      </a><br>
     <a href="#top">Back to top</a>
-  </adress>
+  </adres>
 </footer>
 
 </body>
