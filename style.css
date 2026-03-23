@@ -12,6 +12,16 @@ main {}
 
 section {}
 
+nav {               /* If I understand this correct I will make it stay in the bottom*/
+  position: fixed;   /* Sticks it to the screen */ 
+  bottom: 0;         /* Place at bottom */
+  left: 0;
+  width: 100%;       /* Full width */
+
+  background: #111;  /* So it stands out */
+  padding: 10px 0;
+}
+
 nav ul { /* ul makes it target the list inside nav*/
      display: flex; /* Will try with flexbox from lesson 10 */
   gap: 20px; /* this will decide the space between the buttons in the navigation */
