@@ -23,7 +23,12 @@ nav a { /*  to control and remove default web browser link properties */
   /* border-radius:  px ; */    /* Slightly rounded corners feels modern and boring, might go for a classic vintage html look */
   background: #333;      /* Dark background */
   color: gold;          /* Gold, will go for black and gold theme for now text */
+  }
+  
+  nav a:hover {
+  background: #555; /* Changes color when hovering */
 }
+
 footer{}
 
 .signup-form {
