@@ -2,6 +2,10 @@
 
 header {}
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {}
 
 main {}
