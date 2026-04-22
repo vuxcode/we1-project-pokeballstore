@@ -7,3 +7,4 @@
 3. Header picture is not displayed correct. *not fixed*
 4. Making my navigation menu horizontal with css. *forgot to write ul, "nav ul"* 
 5. (image.png) Back to home and submit button is to close.
+6. Realised that i should have a participant page for the sign up form.
