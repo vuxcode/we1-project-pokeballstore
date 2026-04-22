@@ -62,19 +62,20 @@ form.addEventListener("submit", function(event) {
 
   const name = document.getElementById("name").value;
 
-  // hämta tidigare sparade deltagare (eller tom lista första gången)
+
   let participants = JSON.parse(localStorage.getItem("participants")) || [];
 
-  // lägg till nya namnet
+
   participants.push(name);
 
-  // spara tillbaka listan
   localStorage.setItem("participants", JSON.stringify(participants));
 
   console.log("Saved list:", participants);
 
-  // gå till participants-sidan
+
+  setTimeout(function() {
   window.location.href = "participants.html";
+}, 100); // maybe this will fix bug nr 7
 });
 </script>
 
