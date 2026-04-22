@@ -10,7 +10,6 @@
 
 <body>
 
-
 <header>
   <h1>Participants</h1>
   <p>People signed up for the event</p>
@@ -20,10 +19,10 @@
   <section class="event-section">
     <h2>Participant List</h2>
 
-    <ul class="participants-list">
-      <!-- <li></li> Don't know yet how to make the submit form end up here...  --> 
-       
+    <ul class="participants-list" id="participants-list">
+      <!-- JavaScript will fill this -->
     </ul>
+
   </section>
 </main>
 
@@ -33,19 +32,25 @@
   </p>
 </nav>
 
-</body>
-</html>
+<footer>
+  <p>Data stored locally in browser</p>
+</footer>
 
-<script> // AI generated code
-const list = document.getElementById("participants-list"); //  
+<script>
+const list = document.getElementById("participants-list");
 
+// hämta sparade deltagare
+let participants = JSON.parse(localStorage.getItem("participants")) || [];
 
-let participants = JSON.parse(localStorage.getItem("participants")) || []; // 
-
-
-participants.forEach(function(name) { //
+// loopa igenom listan
+participants.forEach(function(name) {
   const li = document.createElement("li");
+
   li.textContent = name;
+
   list.appendChild(li);
 });
 </script>
+
+</body>
+</html>
