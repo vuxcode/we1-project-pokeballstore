@@ -38,16 +38,19 @@
 
 <script>
 const list = document.getElementById("participants-list");
+const rawParticipants = localStorage.getItem("participants");
 
-// hämta sparade deltagare
-let participants = JSON.parse(localStorage.getItem("participants")) || [];
+console.log("Raw from localStorage:", rawParticipants);
 
-// loopa igenom listan
+const participants = JSON.parse(rawParticipants) || [];
+
+console.log("Parsed participants:", participants);
+
+list.innerHTML = "";
+
 participants.forEach(function(name) {
   const li = document.createElement("li");
-
   li.textContent = name;
-
   list.appendChild(li);
 });
 </script>
