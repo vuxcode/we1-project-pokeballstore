@@ -16,7 +16,7 @@
     <section>
         <h2>Sign up</h2>
 
-        <form class="signup-form"> <!-- Container for the user to enter data -->
+        <form class="signup-form" id="signup-form"> <!-- Container for the user to enter data. the id is for the javascript -->
 
           <div class="form-field"> <!-- with the same div class it will be easy to edit all of them at the same time and keep a good structure-->
            <label for="name">Name:</label><br> <!-- The label is to tell the browser they are connected <br> is line break-->
@@ -53,5 +53,30 @@
  <footer>
     <p>Let se goo Mario</p>
  </footer>
-    </body>
+
+<script> //AI genereated code
+const form = document.getElementById("signup-form");
+
+form.addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  const name = document.getElementById("name").value;
+
+  // hämta tidigare sparade deltagare (eller tom lista första gången)
+  let participants = JSON.parse(localStorage.getItem("participants")) || [];
+
+  // lägg till nya namnet
+  participants.push(name);
+
+  // spara tillbaka listan
+  localStorage.setItem("participants", JSON.stringify(participants));
+
+  console.log("Saved list:", participants);
+
+  // gå till participants-sidan
+  window.location.href = "participants.html";
+});
+</script>
+
+</body>
 </html>
