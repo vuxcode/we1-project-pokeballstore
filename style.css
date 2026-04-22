@@ -30,6 +30,7 @@ nav ul { /* ul makes it target the list inside nav*/
 
   justify-content: center; /* center the items on a horizontall line. Don't know if this will be good on a phone... */
 }
+
 nav a { /*  to control and remove default web browser link properties */
   text-decoration: none; /* Removes underline */
   color: inherit;        /* Uses same color as parent instead of blue */
