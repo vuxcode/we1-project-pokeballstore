@@ -3,7 +3,10 @@
 header {}
 
 html {
+ 
   scroll-behavior: smooth;
+  scroll-padding-bottom: 80px;
+
 }
 
 body {}
