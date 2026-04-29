@@ -42,9 +42,13 @@ main {}
 main,
 header,
 footer {
-  max-width: 900px;      /* Keeps the text from spreading too wide */
-  margin: 0 auto;        /* Centers the content block */
-  padding: 0 24px;       /* Gives breathing room on phone/sides */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.event-section {
+  padding: 50px 0;
 }
 
 section {}
