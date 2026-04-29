@@ -1,21 +1,38 @@
 # Bug List
 
+## 1. Project not started yet
+**Status:** Not started  
 
+## 2. Multiple typos across the site
+**Status:** Ongoing  
 
-1. Problem: *I have not started yet* 
-2. A lot of typos. *ongoing*
-3. Header picture is not displayed correct. *not fixed*
-4. Making my navigation menu horizontal with css. *forgot to write ul, "nav ul"* 
-5. (image.png) Back to home and submit button is to close.
-6. Realised that i should have a participant page for the sign up form. 
-7. AI generated JS code to signup form does not work. It was because I tetsted it loccaly not on a server...
+## 3. Header image not displaying correctly
+**Status:** Not fixed  
 
-8. Sign up is only stored locally. *not fixed*
+## 4. Navigation menu not horizontal
+**Cause:** Missing `ul` selector in CSS (`nav ul`)  
+**Status:** Identified  
 
+## 5. “Back to Home” and “Submit” buttons are too close together
+**Status:** Not fixed  
 
+## 6. Missing participant page for sign-up form
+**Note:** Realized this is needed after initial design  
+**Status:** Not started  
 
+## 7. JavaScript for sign-up form not working
+**Cause:** Tested locally without a server environment  
+**Status:** Identified / Resolved  
 
+## 8. Sign-up data only stored locally (no persistence)
+**Status:** Not fixed  
 
+## 9. Navigation menu does not scale properly on smaller screens
+**Status:** Not fixed  
 
+---
 
-![Bug 7 – JS signup not adding to participants](bug_nr_7.png)
+## Images / References
+
+- ![Bug 7 – JS signup not adding to participants](bug_nr_7.png)
+- ![Bug 9 – Menu not scaling correctly](bug_nr_9.png)
