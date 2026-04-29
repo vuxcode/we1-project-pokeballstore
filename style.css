@@ -39,6 +39,14 @@ h1, h2, h3 {
 
 main {}
 
+main,
+header,
+footer {
+  max-width: 900px;      /* Keeps the text from spreading too wide */
+  margin: 0 auto;        /* Centers the content block */
+  padding: 0 24px;       /* Gives breathing room on phone/sides */
+}
+
 section {}
 
 nav {               /* If I understand this correct I will make it stay in the bottom*/
