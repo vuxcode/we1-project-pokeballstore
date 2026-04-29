@@ -10,13 +10,14 @@ html {
 }
 
 .flames-banner { /* . is the class */
-  width: 100%;
-  height: 320px;
-  object-fit: cover;
-  display: block;
-  opacity: 0.9;
-  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  width: 100%;                   /* Makes the image follow the page width */
+  height: 200px;                 /* Gives the banner a controlled height */
+  object-fit: cover;             /* Crops the image instead of squeezing it */
+  display: block;                /* Removes small unwanted space under the image */
+  /*mask-image: linear-gradient(to bottom, black 75%, transparent 100%); /* Fades the image into the page */
+  /*-webkit-mask-image: linear-gradient(to bottom, black 75%, transparent 100%); /* Same fade support for more browsers */
 }
+
 
 @media (max-width: 600px) { /* @ rules for diffrent media, this is for the phone */
   .flames-banner {
@@ -24,7 +25,9 @@ html {
   }
 }
 
-body {}
+body {
+  background: #000000;  /* Makes the page background match the black in the banner */
+}
 
 main {}
 
