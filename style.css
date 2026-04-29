@@ -85,6 +85,18 @@ nav a { /*  to control and remove default web browser link properties */
   background: #555; /* Changes color when hovering */
 }
 
+.map-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #333;
+  color: gold;
+  text-decoration: none;
+}
+
+.map-button:hover {
+  background: #555;
+}
+
 footer{}
 
 .signup-form {
